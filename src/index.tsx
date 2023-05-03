@@ -1,5 +1,3 @@
-import {
-  Example
-} from './example';
+import { Example } from './example';
 
-export {Example};
+export { Example };

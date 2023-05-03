@@ -15,7 +15,12 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
+    "format": "tsdx lint --fix",
     "prepare": "tsdx build",
+    "prepublishOnly": "yarn test && yarn run lint",
+    "preversion": "yarn run lint",
+    "version": "yarn run format && git add -A src",
+    "postversion": "git push && git push --tags",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },

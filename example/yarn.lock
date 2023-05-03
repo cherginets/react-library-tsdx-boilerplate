@@ -6345,7 +6345,7 @@ multicast-dns@^7.2.5:
     dns-packet "^5.2.2"
     thunky "^1.0.2"
 
-"mylibrary@link:../dist":
+"mylibrary@link:..":
   version "0.0.0"
   uid ""
 
