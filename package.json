@@ -1,8 +1,10 @@
 {
+  "name": "cherginets-react-loader",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "private": false,
   "files": [
     "dist",
     "src"
@@ -38,7 +40,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tsdx-example",
   "author": "Anton Cherginets",
   "module": "dist/tsdx-example.esm.js",
   "size-limit": [
